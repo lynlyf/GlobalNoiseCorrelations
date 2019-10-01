@@ -1,0 +1,2 @@
+# GlobalNoiseCorrelations
+global noise correlations
