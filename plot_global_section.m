@@ -1,11 +1,13 @@
 %% A sample code to plot an image of global noise correlations
+% Correlation data are available at https://doi.org/10.6084/m9.figshare.8982506
+%
 % variables in datafile:
 %   CF: correlation functions
 %   dd: separation distance spacing in deg
 %   dt: time interval in sec
 %   ml: maxlag of CF
 %%
-datafile = 'ZZ.mat';
+datafile = 'ZZ.mat'; % change to your file path
 periods = [3,10]; % period band to bandpass
 load(datafile); % read `CF, dd, dt, ml`
 dis = 0:dd:180; % distance axis in deg
